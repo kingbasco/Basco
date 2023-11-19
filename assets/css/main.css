@@ -76,12 +76,12 @@
   --clr-common-border: #c7c7c7;
   --clr-common-placeholder: #8a8787;
   --clr-theme-1: #222222;
-  --clr-theme-2: #14cf93;
+  --clr-theme-2: #5F61DB;
   --clr-theme-3: #7c7c7c;
   --clr-theme-primary: #222222;
   --clr-background-primary: #222222;
   --clr-bg-1: #222222;
-  --clr-bg-2: #14cf93;
+  --clr-bg-2: #5F61DB;
   --clr-bg-3: #fffcf6;
   --clr-bg-4: #f2f2f2;
   --clr-bg-5: #F7F7F7;
@@ -1402,7 +1402,7 @@ body.mfp-content {
   line-height: 1;
   color: var(--clr-common-white);
   border: 1px solid transparent;
-  border-image: linear-gradient(90.37deg, #14CF93 1.75%, #42A5F5 99.88%);
+  border-image: linear-gradient(90.37deg, #5F61DB 1.75%, #42A5F5 99.88%);
   border-image-slice: 1;
   position: relative;
   z-index: 1;
@@ -1414,7 +1414,7 @@ body.mfp-content {
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(90.37deg, #14CF93 1.75%, #42A5F5 99.88%);
+  background: linear-gradient(90.37deg, #5F61DB 1.75%, #42A5F5 99.88%);
   z-index: -1;
   opacity: 0;
   transition: 0.3s ease-in-out;
@@ -1804,11 +1804,11 @@ body.mfp-content {
   transition-delay: 0.15s;
 }
 .c-button:after {
-  background-color: #14CF93;
+  background-color: #5F61DB;
 }
 .c-button:hover {
   transform: scale(1);
-  border-color: #14CF93;
+  border-color: #5F61DB;
 }
 .c-button:hover:after, .c-button:hover:before {
   top: 0;
@@ -1870,7 +1870,7 @@ body.mfp-content {
 }
 
 .c-button.is-fill {
-  background: #14CF93;
+  background: #5F61DB;
 }
 .c-button.is-fill .c-button__border {
   border: none;
@@ -1930,7 +1930,7 @@ body.mfp-content {
 }
 .round-button:hover {
   transform: scale(1);
-  border-color: #14CF93;
+  border-color: #5F61DB;
 }
 .round-button:hover:after, .round-button:hover:before {
   top: 0;
@@ -2268,10 +2268,10 @@ body.mfp-content {
   transition: 0.4s ease-out;
   height: 100%;
   width: 100%;
-  background-color: #14CF93;
+  background-color: #5F61DB;
 }
 .d-button:hover {
-  border-color: #14CF93;
+  border-color: #5F61DB;
 }
 .d-button:hover:after {
   top: 0;
@@ -3430,7 +3430,7 @@ Hero-6 Animation
   content: "";
   height: 7px;
   width: 7px;
-  background: #14CF93;
+  background: #5F61DB;
   border-radius: 50%;
   top: 50%;
   right: 0;
@@ -6447,7 +6447,7 @@ body {
   }
 }
 .hero-5__title .highlight-title {
-  color: #14CF93;
+  color: #5F61DB;
   font-family: var(--tpl-ff-body);
   text-transform: uppercase;
 }
@@ -6633,7 +6633,7 @@ body {
   transform: translateY(-50%);
 }
 .ax-hero6__title {
-  background: linear-gradient(90.37deg, #14CF93 1.75%, #42A5F5 99.88%);
+  background: linear-gradient(90.37deg, #5F61DB 1.75%, #42A5F5 99.88%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -6786,7 +6786,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #14CF93;
+  color: #5F61DB;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -7098,7 +7098,7 @@ body {
   color: var(--clr-common-white);
 }
 .section__title-3-wrapper.section__title-wrapper-discuss .section__title-main {
-  color: #14CF93;
+  color: #5F61DB;
 }
 .section__title-3-wrapper.section__title-wrapper-team .section__title-main {
   color: var(--clr-common-white);
@@ -7169,7 +7169,7 @@ body {
   }
 }
 .section__title-wrapper.is-gradient .section__title-main > * {
-  background-image: linear-gradient(91.13deg, #14CF93 2.19%, #4A79F2 99.94%);
+  background-image: linear-gradient(91.13deg, #5F61DB 2.19%, #4A79F2 99.94%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -7318,8 +7318,8 @@ body {
 }
 
 .title-green {
-  color: #14CF93;
-  border-bottom: 3px solid #14CF93;
+  color: #5F61DB;
+  border-bottom: 3px solid #5F61DB;
 }
 
 /*Interactions*/
@@ -7995,7 +7995,7 @@ body {
 .contact-info-icon {
   width: 96px;
   height: 96px;
-  background: linear-gradient(180deg, #14CF93 0%, rgba(20, 207, 147, 0.4) 100%);
+  background: linear-gradient(180deg, #5F61DB 0%, rgba(20, 207, 147, 0.4) 100%);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -8014,7 +8014,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #14CF93 0%, #33D6A1 100%);
+  background: linear-gradient(180deg, #5F61DB 0%, #33D6A1 100%);
   position: absolute;
   right: 15px;
   border-radius: 3px;
@@ -8028,7 +8028,7 @@ body {
   width: 0;
   height: 0;
   border-top: 7px solid transparent;
-  border-right: 10px solid #14CF93;
+  border-right: 10px solid #5F61DB;
   border-bottom: 7px solid transparent;
   border-radius: 10px 0px 0px 10px;
 }
@@ -11333,12 +11333,12 @@ body {
   --clr-common-border: #c7c7c7;
   --clr-common-placeholder: #8a8787;
   --clr-theme-1: #222222;
-  --clr-theme-2: #14cf93;
+  --clr-theme-2: #5F61DB;
   --clr-theme-3: #7c7c7c;
   --clr-theme-primary: #eeeeee;
   --clr-background-primary: #222222;
   --clr-bg-1: #222222;
-  --clr-bg-2: #14cf93;
+  --clr-bg-2: #5F61DB;
   --clr-bg-3: #fffcf6;
   --clr-bg-4: #f2f2f2;
   --clr-bg-5: #F7F7F7;
@@ -13277,7 +13277,7 @@ body {
 
 .case-quote-author .name {
   font-size: 20px;
-  color: #14CF93;
+  color: #5F61DB;
   margin-right: 15px;
 }
 .case-quote-author .title {
@@ -14169,7 +14169,7 @@ body {
   margin: 0 auto;
 }
 .ax-cta__title span {
-  background: linear-gradient(91.02deg, #14CF93 38.92%, #0094FF 66.4%);
+  background: linear-gradient(91.02deg, #5F61DB 38.92%, #0094FF 66.4%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -15614,7 +15614,7 @@ body {
   }
 }
 .step-item:hover {
-  background: #14CF93;
+  background: #5F61DB;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.07);
 }
 .step-item:hover .num__count {
@@ -15907,7 +15907,7 @@ body {
 	31. pricing css
 ----------------------------------------*/
 .pricing-icon span {
-  background: linear-gradient(180deg, #14CF93 0%, #5EE4C6 100%);
+  background: linear-gradient(180deg, #5F61DB 0%, #5EE4C6 100%);
   height: 64px;
   width: 64px;
   display: inline-flex;
@@ -16433,11 +16433,11 @@ label {
   opacity: 1;
 }
 .check:hover svg {
-  stroke: #14CF93;
+  stroke: #5F61DB;
 }
 
 [type=checkbox]:checked + .check svg {
-  stroke: #14CF93;
+  stroke: #5F61DB;
 }
 [type=checkbox]:checked + .check svg path {
   stroke-dashoffset: 60;
@@ -16703,7 +16703,7 @@ label {
   position: absolute;
   width: 304px;
   height: 304px;
-  background: #14CF93;
+  background: #5F61DB;
   opacity: 0.4;
   filter: blur(175px);
   bottom: 27px;
@@ -16836,7 +16836,7 @@ label {
   height: 80px;
   margin-top: -45px;
   border-radius: 0px;
-  background-color: #14CF93;
+  background-color: #5F61DB;
   animation: ax-loader-aim 0.8s infinite;
   animation-direction: alternate-reverse;
 }
